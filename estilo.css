@@ -107,8 +107,8 @@ img{
 
  .link{
     background-color: var(--cor00);
-    margin: 10px;
     padding: 5px;
+    margin: 10px;
     width: 230px;
     border-radius: 20px;
     text-align: center;

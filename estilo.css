@@ -36,7 +36,7 @@ header{
 }
 
 #c3{
-   background-color: var(--cor00);
+   background-color: var(--cor03);
 }
 
 #content1{
@@ -48,11 +48,13 @@ header{
 #content2{
     height: 500px;
     margin: auto;
+    max-width: 800px;
 }
 
 #content3{
     height: 500px;
     margin: auto;
+    max-width: 800px;
 }
 
 #logo1{
@@ -88,9 +90,20 @@ footer{
     height: 700px;
     float: right;
  }
+
+ #ele{
+   width: 30%;
+   height: 30%;
+   border-radius: 100px;
+   float: left;
+ }
  
  h1{
     padding: 20px;
+ }
+
+ h2{
+    margin-top: 30px;
  }
 
  p{
@@ -99,6 +112,10 @@ footer{
    font-family: var(--fonte02); 
    color: var(--cor00);
    margin: 20px;
+ }
+
+ #content3>p{
+    background-color: #0992fb;
  }
  
  a{

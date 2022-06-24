@@ -41,7 +41,8 @@ header{
 
 #content1{
     margin: auto;
-    height: 1000px;
+    height: 800px;
+    max-width: 800px;
 }
 
 #content2{
@@ -83,21 +84,21 @@ footer{
     height: 200px; 
  }
  
- 
-img{
+#celular{
     height: 700px;
-    float:right;
- } 
+    float: right;
+ }
+ 
+ h1{
+    padding: 20px;
+ }
 
  p{
    padding-top: 50px;
    padding-bottom: 40px;
    font-family: var(--fonte02); 
    color: var(--cor00);
- }
-
- h1,p{
-     text-align: justify;
+   margin: 20px;
  }
  
  a{

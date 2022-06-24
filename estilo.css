@@ -229,11 +229,30 @@ button:hover{
 .mini{
     width: 5%;
     height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 100px;
 }
 
 #contato{
     margin: auto;
+    justify-content: center;
+}
+
+#contato>p{ 
+    padding: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    font-family: var(--fonte02); 
+    margin: 20px;
+    font-size: 14pt;
+}
+
+a{
+    color: #0992fb;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #004275;
 }
